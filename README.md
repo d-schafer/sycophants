@@ -10,6 +10,7 @@ Analyses were carried out using R version 4.2.1 for Windows (x86_64-w64-mingw32/
 
 
 
+
 Data
 
 handcoded_tweets.RData  -  Tweet IDs for set of Tweets used to train the supervised model
@@ -27,6 +28,7 @@ tweets_scored.RData  -  scores for all Tweets directed at the media. Includes pa
 [folder] dict  -  contains word lists for English translations for democratic-authoritarian words in Figure 1.
 
 [folder] cleaning  -  contains word lists for manually created set of stopwords.
+
 
 
 
