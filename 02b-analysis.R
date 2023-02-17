@@ -80,31 +80,9 @@ ggsave("appendixB3.png", plot = appendixB3, width = 6, height = 4, dpi = "retina
 
 ####### Figure 2
 
+##Load V-DEM Party Dataset for Turkey
+load("./data/vdem_parties.RData")
 
-##Load V-DEM data
-VDem <- readit("./data/V-Dem-CPD-Party-V1.dta")
-
-#just Turkey
-turkey <- dplyr::filter(VDem, country_name == "Turkey")
-
-#fewer columns
-turk_parties <- turkey[ , c("v2paenname", "v2pashname", "year", "v2xpa_illiberal")]
-
-#2015 offers the closest year with measures for most parties
-turk_parties_score <- dplyr::filter(turk_parties, year == 2015)
-
-#slightly more intuitive names
-colnames(turk_parties_score) <- c("party_full", "party", "year", "illiberalism")
-
-#closest approximation for iyi
-iyi <- dplyr::filter(turk_parties, year == 2018 & v2paenname == "alliance: Nation Alliance")
-colnames(iyi) <- c("party_full", "party", "year", "illiberalism")
-
-#party variables
-iyi$party <- "İYİ"
-
-#merging
-vdem_parties <- rbind(turk_parties_score, iyi)
 
 
 
