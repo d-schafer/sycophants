@@ -2,13 +2,13 @@
 
 Replication materials for "Sycophants in 280 Characters", Party Politics.
 ------------------------------------------------------------------------------------------------
-
+<br>
 Software
 
 Analyses were carried out using R version 4.2.1 for Windows (x86_64-w64-mingw32/x64 (64-bit))
 
 
-
+<br>
 
 
 Data
@@ -31,7 +31,7 @@ tweets_scored.RData  -  scores for all Tweets directed at the media. Includes pa
 
 
 
-
+<br>
 
 
 R Code files
