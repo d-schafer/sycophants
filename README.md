@@ -2,6 +2,8 @@
 
 Replication materials for "Sycophants in 280 Characters", Party Politics.
 ------------------------------------------------------------------------------------------------
+Manuscript can be found here: https://www.deanschafer.com/publications
+
 <br>
 Software
 
