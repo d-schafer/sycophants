@@ -3,6 +3,17 @@
 Replication materials for "Sycophants in 280 Characters", Party Politics.
 ------------------------------------------------------------------------------------------------
 Manuscript can be found here: https://www.deanschafer.com/publications
+<br><br>
+
+<b>Note:</b> This replication code is designed to work if you have Twitter API access, but also if you don't. <br>
+
+If you have Twitter API access Tweets you can run: <br>
+01a to hydrate the Tweets for testing and training the sentiment analysis model, and <br>
+02a to hydrate the Tweets used in the analysis (the full collection of Tweets directed at the media).
+
+If you do not have Twitter API access you can start with: <br> 
+01b to replicate model testing and training, and <br>
+02b to replicate the analysis for Figures 2 through 4.
 
 <br>
 Software
@@ -46,4 +57,4 @@ R Code files
 
 02a-hydrateTweets_analysis  -  Code to rehydrate all Tweets directed against the media. If you are replicating the sentiment analysis model training process, this step also applies to final model to the full set of Tweets to score them on the democratic-authoritarian dimension.
 
-02b-analysis - Code to conduct the main analysis in Party Politics. Replicates Figures 2 through 4.
+02b-analysis - Code to conduct the main analysis in Party Politics manuscript. Replicates Figures 2 through 4.
