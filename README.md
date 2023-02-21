@@ -7,12 +7,13 @@ Manuscript can be found here: https://www.deanschafer.com/publications
 
 <b>Note:</b> This replication code is designed to work if you have Twitter API access, but also if you don't. <br>
 
-If you have Twitter API access Tweets you can run: <br>
+If you have Twitter API access, you can run: <br>
 01a to hydrate the Tweets for testing and training the sentiment analysis model, and <br>
 02a to hydrate the Tweets used in the analysis (the full collection of Tweets directed at the media).
 
-If you do not have Twitter API access you can start with: <br> 
+If you do not have Twitter API access, you can start with: <br> 
 01b to replicate model testing and training, and <br>
+01c to reproduce Figure 1, and <br>
 02b to replicate the analysis for Figures 2 through 4.
 
 <br>
